@@ -10,6 +10,10 @@ namespace Caculator
     {
         static void Main(string[] args)
         {
+           
+                Calculator calculator = new Calculator();
+                Console.WriteLine(calculator.Mutiple(5, 9));
+
             
         }
     }
