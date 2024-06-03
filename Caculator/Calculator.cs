@@ -8,7 +8,27 @@ namespace Caculator
 {
     internal class Calculator
     {
-        public double x;
-        public double y;
-            
+        public float x;
+        public float y;
+        public Calculator()
+        {
+            x = 0;
+            y = 0;
+        }
+        public float Minus(float a, float b)
+        {
+            return a - b;
+        }
+        public float Add(float a, float b)
+        {
+            return a + b;
+        }
+        public float Mutiple(float a, float b)
+        {
+            return a * b;
+        }
+        public float Divide(float a, float b)
+        {
+            return a / b;
+        }
     }
