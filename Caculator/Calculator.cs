@@ -8,8 +8,8 @@ namespace Caculator
 {
     internal class Calculator
     {
-        public float x;
-        public float y;
+        public float x { get; set; }
+        public float y { get; set; }
         public Calculator()
         {
             x = 0;
@@ -23,7 +23,7 @@ namespace Caculator
         {
             return a + b;
         }
-        public float Mutiple(float a, float b)
+        public float Multiple(float a, float b)
         {
             return a * b;
         }
@@ -32,3 +32,4 @@ namespace Caculator
             return a / b;
         }
     }
+}
