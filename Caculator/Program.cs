@@ -11,7 +11,7 @@ namespace Caculator
         static void Main(string[] args)
         {
             Calculator calculator = new Calculator();
-            Console.WriteLine(calculator.Multiple(5,9));
+            Console.WriteLine(calculator.Mutiple(5,9));
             
         }
     }
